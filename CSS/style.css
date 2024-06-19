@@ -46,6 +46,13 @@ body {
     transition: transform 0.2s;
 }
 
+.card.dealer {
+    width: 200px;
+    height: 300px;
+    outline-width: 30px;
+    font-size:xx-large;
+}
+
 .card:hover {
     transform: scale(1.1);
 }
@@ -101,4 +108,8 @@ body {
 .footer {
     display: flex;
     justify-content: center;
+}
+
+.title {
+    font-size:100px;
 }
