@@ -47,21 +47,3 @@ cardElement.addEventListener('click', updateCard);
 
 // Initial card display
 updateCard();
-
-/*
-const gameDeck = document.getElementById('game-deck'); 
-
-let counter = 54;
-
-document.getElementById('game-deck').addEventListener('click', function() {
-    counter--;
-    let i = 0;
-    while (i < counter) {
-        const card = deck.deal();
-        const cardElement = document.createElement('div');
-        cardElement.className = 'card';
-        cardElement.innerText = `${card.face}`;
-        gameDeck.appendChild(cardElement); 
-    } 
-    i++;
-}); */

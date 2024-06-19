@@ -41,7 +41,7 @@ for (let i = 0; i < 16; i++) {
         cardElement.innerText = `${card.face}`;
 
         cardElement.addEventListener('click', () => {
-            cardElement.style.backgroundColor = 'darkorange'; // Change 'lightblue' to any color you prefer
+            cardElement.style.backgroundColor = 'darkorange'; 
         });
 
         gameBoard.appendChild(cardElement);
