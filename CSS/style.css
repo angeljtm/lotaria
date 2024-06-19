@@ -7,7 +7,8 @@ h1 {
 body {
     font-family: Arial, sans-serif;
     background-color: #e2cdb0;
-    color: #0000ff;
+    color: white;
+    font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,7 +34,7 @@ body {
 .card {
     width: 100px;
     height: 150px;
-    outline-color: whitesmoke;
+    outline-color: #333;
     outline-width: 10px;
     outline-style: auto;
     background-color: #f4c129;
