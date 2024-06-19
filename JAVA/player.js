@@ -39,5 +39,12 @@ for (let i = 0; i < 16; i++) {
         const cardElement = document.createElement('div');
         cardElement.className = 'card';
         cardElement.innerText = `${card.face}`;
-        gameBoard.appendChild(cardElement); 
+
+        cardElement.addEventListener('click', () => {
+            cardElement.style.backgroundColor = 'darkorange'; // Change 'lightblue' to any color you prefer
+        });
+
+        gameBoard.appendChild(cardElement);
 };
+
+
